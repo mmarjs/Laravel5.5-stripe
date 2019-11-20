@@ -1,0 +1,65 @@
+﻿@media (max-width:768px) {
+    .accordionToTabs .tabs {
+        display: none;
+    }
+
+    .accordionToTabs .tab_drawer_heading {
+        background-color: silver;
+        color: darkblue;
+        border-top: 1px solid midnightblue;
+        margin: 0;
+        padding: 5px 20px;
+        display: block;
+        cursor: pointer;
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+
+    .accordionToTabs .tab_drawer_heading:after {
+        padding: 5px 15px 0 15px;
+        content: '\e000';
+        float: right;
+        font: normal normal 16px/18px 'sunshine';
+        -webkit-font-smoothing: antialiased;
+    }
+
+    .accordionToTabs .tab_drawer_heading.d_active:after {
+        padding: 5px 15px 0 15px;
+        content: '\e001';
+        font: normal normal 16px/18px 'sunshine';
+        -webkit-font-smoothing: antialiased;
+    }
+
+    .accordionToTabs .d_active {
+        background-color: midnightblue;
+        color: darkblue;
+    }
+
+    .hidden-desktop {
+        display: inherit !important;
+    }
+
+    .visible-desktop {
+        display: none !important;
+    }
+
+    .visible-phone {
+        display: inherit !important;
+    }
+
+    .hidden-phone {
+        display: none !important;
+    }
+
+    li.visible-phone form {
+        margin: 0 !important;
+    }
+
+    li.visible-phone:first-child, li.sep {
+        padding-bottom: 0 !important;
+    }
+}

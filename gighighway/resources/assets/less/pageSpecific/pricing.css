@@ -1,0 +1,128 @@
+﻿.service-pricing-main {
+    margin-top: 33px;
+    margin-bottom: 33px;
+}
+
+.service-pricing-orage {
+    background-color: #ff9800;
+}
+
+.service-pricing-blue {
+    background-color: #0d87e9;
+}
+
+.service-block-pricing {
+    font-size: 1.6em;
+}
+
+.pricing-block-header {
+    padding: 15px 0;
+    font-size: 25px;
+    margin-bottom: 0px;
+    background-color: rgba(0,0,0, 0.2);
+    color: #fff;
+    text-align: center;
+}
+
+.service-pricing-block .pricing-block-header h2 {
+    font-size: 42px;
+    color: #fff;
+    margin-top: 3px;
+    margin-bottom: 0;
+}
+
+.service-pricing-block .pricing-block-header .rating {
+    font-size: 1.3em;
+    color:#fff;
+}
+
+.service-pricing-block .pricing-block-header .averageRating:before {
+    color: #fff;
+}
+
+.service-block-pricing .pricing-actual-figure:first-child {
+    border-bottom: 1px solid;
+    padding: 16px 0;
+}
+
+.service-block-pricing .pricing-actual-figure {
+    font-size: 1.3em;
+    font-weight: 500;
+    padding: 16px 0 0;
+    margin: 0;
+}
+
+.service-block-pricing .pricing-discount-amount {
+    font-size: 1.3em;
+    margin: -9px 3px 9px;
+}
+
+.pricing-body {
+    font-size: 18px;
+    color: #fff;
+}
+
+.pricing-lead {
+    padding: 16px 16px;
+    margin-bottom: 0;
+    border-bottom: 1px solid #fff;
+}
+
+.pricing-bottom-section {
+    padding: 0 0 1em;
+    margin-top: 3px;
+    margin-bottom: 33px;
+    float: left;
+    width: 100%;
+    background-color: lightgrey;
+}
+
+.pricing-plan-features {
+    padding: 16px 1px;
+    margin-bottom: 0;
+}
+
+.pricing-featured-highlight {
+    background-color: #e51c23;
+    padding: 3px 16px;
+}
+
+    .pricing-featured-highlight.featured-ribbon {
+        padding: 3px 33px;
+        position: relative;
+    }
+
+        .pricing-featured-highlight.featured-ribbon:before {
+            content: "";
+            height: 0;
+            width: 0;
+            display: block;
+            position: absolute;
+            top: 0;
+            left: -19px;
+            border-top: 14px solid #e51c23;
+            border-bottom: 14px solid #e51c23;
+            border-right: 19px solid transparent;
+            border-left: 19px solid transparent;
+        }
+
+        .pricing-featured-highlight.featured-ribbon:after {
+            content: "";
+            height: 0;
+            width: 0;
+            display: block;
+            position: absolute;
+            top: 0;
+            right: -17px;
+            border-top: 14px solid #e51c23;
+            border-bottom: 14px solid #e51c23;
+            border-right: 19px solid transparent;
+            border-left: 19px solid transparent;
+        }
+
+@media only screen and (max-width:480px) {
+    .pricing-plan-features {
+        font-size: 16px;
+        padding: 13px;
+    }
+}

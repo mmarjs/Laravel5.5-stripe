@@ -1,0 +1,267 @@
+﻿/*#region HTML5 Boilerplate Base Stylesheet  */
+/*
+ * HTML5 Boilerplate - minimal base styles + some customs
+ */
+
+body, select, input, textarea {
+    font: normal normal @baseFontSize @baseFontFamily;
+    color: @baseFontColor;
+}
+
+html {
+    overflow-y: scroll;
+    min-width: @minWebsiteWidth;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    line-height: normal;
+    padding: 0;
+}
+
+h1 {
+    color: @h1Color;
+    font-size: @h1FontSize;
+    margin: 2em 0 1em 0;
+}
+
+h2 {
+    color: @h2Color;
+    font-size: @h2FontSize;
+    margin: 2em 0 1em 0;
+}
+
+h3 {
+    color: @h3Color;
+    font-size: @h3FontSize;
+    margin: 1.5em 0 .5em 0;
+}
+
+h4 {
+    color: @h4Color;
+    font-size: @h4FontSize;
+    margin: 0 0 .5em 0;
+}
+
+h5,
+h6 {
+    display: inline;
+    float: left;
+    margin: 1.3em .3em 0 0;
+    width: 100%;
+}
+
+h5 {
+    color: @h5Color;
+    font-size: @h5FontSize;
+}
+
+h6 {
+    color: @h6Color;
+    font-size: @h6FontSize;
+}
+
+em {
+    font-style: italic;
+    font-weight: normal;
+}
+
+p {
+    clear: both;
+}
+
+a:hover, a:active {
+    outline: none;
+}
+
+a, a:active, a:focus, a:visited {
+    color: @aColor;
+    cursor: pointer;
+}
+
+a:hover {
+    color: @aHoverColor;
+}
+
+ul,
+ol {
+    padding: 0;
+    margin: 0 0 1em 3em;
+}
+
+ol {
+    list-style-type: decimal;
+}
+
+ol ol {
+    list-style-type: upper-alpha;
+}
+
+ol ol ol {
+    list-style-type: lower-alpha;
+}
+
+ol ol ol ol {
+    list-style-type: upper-roman;
+}
+
+ol ol ol ol ol {
+    list-style-type: lower-roman;
+}
+
+ol ol,
+ol ul,
+ul ul,
+ul ol {
+    margin: .5em 0 0 3em;
+}
+
+ul {
+    list-style: disc;
+}
+
+ul ul {
+    list-style-type: circle;
+}
+
+ul ul ul {
+    list-style-type: square;
+}
+
+ul ul ul ul {
+    list-style-type: circle;
+}
+
+ul ul ul ul ul {
+    list-style-type: square;
+}
+
+ul li,
+ol li {
+    padding-bottom: 5px;
+}
+
+input,
+img,
+label,
+select,
+textarea,
+video {
+    max-width: 100% !important;
+}
+
+hr {
+    clear: both;
+    border-width: 0;
+    border-top: @hrWidth solid @hrColor;
+}
+
+nav ul, nav li {
+    margin: 0;
+    list-style: none;
+}
+
+small {
+    font-size: 85%;
+}
+
+strong, th {
+    font-weight: bold;
+}
+
+td, td img {
+    vertical-align: top;
+}
+
+sub {
+    vertical-align: sub;
+    font-size: smaller;
+}
+
+sup {
+    vertical-align: super;
+    font-size: smaller;
+}
+
+pre {
+    padding: 15px;
+    white-space: pre; /* CSS2 */
+    white-space: pre-wrap; /* CSS 2.1 */
+    white-space: pre-line; /* CSS 3 (and 2.1 as well, actually) */
+    word-wrap: break-word; /* IE */
+}
+
+textarea {
+    overflow: auto;
+}
+/* thnx ivannikolic! www.sitepoint.com/blogs/2010/08/20/ie-remove-textarea-scrollbars/ */
+.ie6 legend, .ie7 legend {
+    margin-left: -7px;
+}
+/* thnx ivannikolic! */
+input[type="radio"] {
+    vertical-align: text-bottom;
+}
+
+input[type="checkbox"] {
+    vertical-align: bottom;
+}
+
+.ie7 input[type="checkbox"] {
+    vertical-align: baseline;
+}
+
+.ie6 input {
+    vertical-align: text-bottom;
+}
+
+label, input[type=button], input[type=submit], button {
+    cursor: pointer;
+}
+
+button, input, select, textarea {
+    margin: 0;
+}
+
+/*
+input:valid, textarea:valid {
+}
+
+input:invalid, textarea:invalid {
+    border-radius: 1px;
+    -moz-box-shadow: 0 0 5px red;
+    -webkit-box-shadow: 0 0 5px red;
+    box-shadow: 0 0 5px red;
+}
+
+.no-boxshadow input:invalid,
+.no-boxshadow textarea:invalid {
+    background-color: #f0dddd;
+}
+
+::-moz-selection {
+    background: #f16529;
+    color: #fff;
+    text-shadow: none;
+}
+
+::selection {
+    background: #f16529;
+    color: #fff;
+    text-shadow: none;
+}*/
+
+a:link {
+    -webkit-tap-highlight-color: #FF5E99;
+}
+
+button {
+    width: auto;
+    overflow: visible;
+}
+
+.ie7 img {
+    -ms-interpolation-mode: bicubic;
+}
+
+/*#endregion HTML5 Boilerplate Base Stylesheet  */

@@ -1,0 +1,136 @@
+﻿@media (min-width: 769px) {
+    .form h2,
+    .form h3,
+    .form h4,
+    .form h5,
+    .form h6,
+    form h2,
+    form h3,
+    form h4,
+    form h5,
+    form h6 {
+        clear: left;
+        float: left;
+    }
+
+    .form .accordion h3,
+    form .accordion h3 {
+        clear: none;
+        float: none;
+    }
+
+    .form label,
+    form label {
+        display: table;
+        white-space: nowrap;
+    }
+
+    /*.horizontalFormLayout label { float:left; padding-right:6px; } */
+
+    /*.horizontalFormLayout input, .horizontalFormLayout select, .horizontalFormLayout textarea, .horizontalFormLayout div.limitedTextarea, .horizontalFormLayout div.cleditorMain, .horizontalFormLayout ul.radioButtonList { float:left; margin-top:9px; } */
+
+    .horizontalFormLayout label {
+        clear: left;
+        float: left;
+        margin: .6em 1em 0 1.3em; /* width:inherit !important; */
+    }
+
+    label.checkbox {
+        clear: none;
+        float: none;
+        display: inline;
+        white-space: normal;
+    }
+
+    .horizontalFormLayout label.checkbox {
+        margin: 0;
+        font-weight: normal;
+    }
+
+    label.radiobutton {
+        padding: 0 0 0 .3em;
+        white-space: normal;
+    }
+
+    .horizontalFormLayout input,
+    .horizontalFormLayout select,
+    .horizontalFormLayout textarea,
+    .horizontalFormLayout div.limitedTextarea {
+        float: left;
+        margin-top: .6em;
+    }
+
+    /*.ie7 .horizontalFormLayout input, .ie7 .horizontalFormLayout select, .ie7 .horizontalFormLayout textarea, .ie7 .horizontalFormLayout div.limitedTextarea { clear: left; margin-top: 3px; }*/
+    /* ie7 does not handle the clear properly, so we are just going to make forms vertical for ie7 */
+
+    .horizontalFormLayout input[type="checkbox"] {
+        float: none;
+        display: inline;
+        margin: .6em .3em 0 0;
+    }
+
+    .horizontalFormLayout input[type="checkbox"].alignCheckboxLeft {
+        float: left;
+    }
+
+    .horizontalFormLayoutAdditionalItem {
+        float: left !important;
+        margin: .6em 0 0 .6em;
+    }
+
+    /*.ie7 .horizontalFormLayoutAdditionalItem { clear: left; margin-top: 3px; } */
+
+    div.limitedTextarea div {
+        color: mediumvioletred;
+    }
+
+    .horizontalFormLayout .formButtonWrapper {
+        clear: left;
+        float: left;
+    }
+
+    .horizontalFormLayout .formButtonWrapper:before {
+        content: "*";
+        display: block;
+        height: 1px;
+        clear: left;
+        visibility: hidden;
+    }
+
+    .horizontalFormLayout .formButtonWrapper input {
+        float: none;
+    }
+
+    input[type="email"],
+    input[type="number"],
+    input[type="password"],
+    input[type="tel"],
+    input[type="text"],
+    input[type="url"] {
+        width: @formFieldDefaultWidth;
+    }
+
+    select {
+        width: auto;
+    }
+
+    .hidden-desktop {
+        display: inherit !important;
+    }
+
+    .visible-desktop {
+        display: none !important;
+    }
+
+    .visible-tablet {
+        display: inherit !important;
+    }
+
+    .hidden-tablet {
+        display: none !important;
+    }
+
+    .tableGrid td.hidden {
+        display: none;
+    }
+}

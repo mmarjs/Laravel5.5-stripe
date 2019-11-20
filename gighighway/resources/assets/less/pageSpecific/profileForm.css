@@ -1,0 +1,236 @@
+.control-group {
+    margin-bottom: 15px;
+}
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+    background-color: #808080 !important;
+}
+
+.htdCommentsRowContainer {
+    max-width: 326px;
+    word-wrap: break-word;
+}
+
+    .htdCommentsRowContainer div {
+        white-space: pre-wrap;
+    }
+
+.hdivCommentsContainer {
+    height: 46px;
+    overflow: hidden;
+}
+
+.spProfileForm_CategoryItem {
+    display: inline-block;
+    margin: 3px 3px 3px 0;
+    padding: 0 6px;
+    line-height: 2.3;
+    word-break: break-word;
+}
+
+    .spProfileForm_CategoryItem .badge {
+        margin-left: 6px;
+    }
+
+.panel-title a.disabled {
+    cursor: default;
+    color: gray;
+    text-decoration: none;
+}
+
+.profile-image.img-responsive {
+    margin: 0 auto;
+    border: 1px solid lightgrey;
+    padding: 4px;
+    display: inline-block;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+.profileForm_ProfileImageOverlay {
+    background-color: rgba(255, 255, 255, 0.87);
+    padding: 9px 23px;
+    position: relative;
+    width: 100%;
+    top: -46px;
+    text-align: center;
+}
+
+.profileForm_MainProfilePhoto {
+    margin: 0 auto;
+    max-width: 640px;
+}
+
+.profileForm_TileProfilePhoto {
+    margin: 0 auto;
+    max-width: 300px;
+}
+
+.video-thumbnail-embed.video-embed-preview {
+    opacity: 0.7;
+}
+
+    .video-thumbnail-embed.video-embed-preview:hover {
+        cursor: pointer;
+        opacity: 1;
+    }
+
+#tbodyProfileForm_VideoGallery td.item-tile {
+    height: 130px;
+    width: 190px;
+}
+
+.video-thumbnail-embed .glyphicon {
+    color: #fff !important;
+    font-size: 1.3em !important;
+    top: 39px !important;
+    left: 36% !important;
+    background-color: lightgrey;
+    border: 1px solid lightgrey;
+    border-radius: 4px !important;
+    padding: 11px 21px;
+    position: absolute;
+}
+
+    .video-thumbnail-embed .glyphicon:hover {
+        background-color: #0d87e9;
+        border: 1px solid #0d87e9;
+    }
+
+div.dataTables_wrapper .dataTable-custom-filter div.dataTables_filter {
+    text-align: left !important;
+}
+
+#tblProfileForm_AudioFiles_wrapper, #tblProfileForm_Songs_wrapper {
+    max-width: 643px;
+}
+
+#hdivProfileForm_VideoGalleryContainer div.dataTables_wrapper div.dataTables_paginate,
+#hdivProfileForm_ImageGalleryContainer div.dataTables_wrapper div.dataTables_paginate {
+    text-align: center !important;
+}
+
+td.item-tile {
+    height: 160px;
+}
+
+.table > thead > tr > th {
+    border-bottom: 0;
+}
+
+#hdivProfileForm_VideoGalleryContainer, #hdivProfileForm_ImageGalleryContainer {
+    background-color: #f1f1f1;
+    padding: 13px 0;
+}
+
+#hdivProfileForm_AudioLibrayContainer {
+    margin-top: 15px;
+}
+
+.tdAudioFileList_TrackRow:hover {
+    cursor: pointer;
+}
+
+#hdivProfileForm_AudioLibrayContainer, #hdivProfileForm_SongListContainer {
+    background-color: #f1f1f1;
+    padding: 13px 16px;
+}
+
+#htbodyProfileForm_AudioContainer tr td:nth-child(2),
+#tblProfileForm_AudioFiles tr th:nth-child(2) {
+    text-align: right;
+    white-space:nowrap;
+}
+
+#tbodyProfileForm_SongsContainer tr td:nth-child(3) {
+    text-align: center;
+    white-space:nowrap;
+}
+#tbodyProfileForm_SongsContainer input {
+    width:100%;
+}
+
+.glyphicon.glyphicon-ok.upload-confirmation-icon:before {
+    font-size: 1.5em;
+}
+
+input[type='file'] {
+    width: 100%;
+}
+
+.profleForm_AudioPlayer {
+    display: block;
+}
+
+@-moz-document url-prefix() {
+    #hdivProfileForm_AudioLibrayContainer input[type='file'] {
+        width: auto;
+        max-width: 246px;
+    }
+
+    .profleForm_AudioPlayer {
+        display: block;
+        width: 250px;
+    }
+}
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    #hdivProfileForm_AudioLibrayContainer input[type='file'] {
+        width: auto;
+    }
+
+    .profleForm_AudioPlayer {
+        display: block;
+        width: 250px;
+    }
+
+    #tbodyProfileForm_SongsContainer input[type="text"],
+    #htbodyProfileForm_AudioContainer input[type="text"] {
+        min-height: 30px;
+    }
+}
+
+#tbodyProfileForm_ImageGallery .item-tile .img-responsive {
+    height: 109px !important;
+    width: auto;
+}
+
+#tbodyProfileForm_ImageGallery tr td.item-tile {
+    border-top: none;
+}
+
+.partialContent .imgProfile_PageLoading {
+    display: block;
+    width: 220px;
+    margin: 0 auto;
+    padding: 19px 0;
+}
+
+#hypProfileForm_DeleteAllSongs, 
+#hypProfileForm_DeleteAllAudioFiles {
+    font-weight: 400;
+}
+
+.audioPlayer_TrackInformation {
+    margin-bottom: 6px;
+}
+
+#txtProfileForm_AudioTitle {
+    margin-right: 13px;
+}
+a.audioFile_Control{text-decoration:none;}
+
+.profileForm_MediaSaved {margin-left:9px;}
+
+@media only screen and (min-width:768px) {
+    #collapse2 button[type='submit'] {
+        margin-left:6px;
+    }
+}
+
+.profileForm_reviewRating span {
+    display:inline;
+    margin-right:1em;
+}

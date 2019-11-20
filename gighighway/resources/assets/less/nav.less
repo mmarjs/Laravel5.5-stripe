@@ -1,0 +1,105 @@
+//
+// Nav
+// --------------------------------------------------
+
+.navbar-fixed-top 
+.navbar-collapse, 
+.navbar-fixed-bottom 
+.navbar-collapse {
+  max-height: 410px!important; /*360px!important;*/
+}
+
+.header-inner-right { 
+    float:right;
+    margin-left:-20px;
+    padding-top:19px;
+    padding-right:10px;
+    position:relative; 
+}
+
+.header-inner-right a {
+    color:@navbar-inverse-brand-color!important;
+}
+
+.header-inner-right .menu-icons-list {
+    margin:0;
+    list-style:none;
+}
+
+.header-inner-right .menu-icons:first-child {
+    padding-right:15px;
+}
+
+.header-inner-right li.menu-icons {
+    position:relative;
+    display:inline-block;
+}
+
+.dropdown-menu 
+.nav-divider {
+    .nav-divider(@gray-dark);
+}
+
+//
+// Navbar
+// ---------------------------------------------------
+
+.navbar {
+	margin-bottom: 0;
+    min-height:50px;
+}
+
+.navbar li a{
+	font-size: 16px;
+	/*text-transform: uppercase;*/
+	-ms-transition: all 100ms ease-in-out 0s ;
+	-moz-transition: all 100ms ease-in-out 0s ;
+	-webkit-transition: all 100ms ease-in-out 0s ;
+	-o-transition: all 100ms ease-in-out 0s ;
+	transition: all 100ms ease-in-out 0s ;
+}
+
+.navbar li.nav-dropdown .caret{
+	border-top-color: #fff;
+	border-bottom-color: #fff;
+}
+
+.menu-item a{
+	background: #fbfbfb;
+	-ms-transition: all 100ms ease-in-out 0s ;
+	-moz-transition: all 100ms ease-in-out 0s ;
+	-webkit-transition: all 100ms ease-in-out 0s ;
+	-o-transition: all 100ms ease-in-out 0s ;
+	transition: all 100ms ease-in-out 0s ;
+}
+
+.menu-item a:hover{
+	background: #fff;
+	color: #428bca;
+}
+
+/*777879*/
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+    background-color: #808080 !important;
+}
+
+@media (min-width: @screen-sm) {
+    .navbar-nav > li > a {
+		padding-top: 13px;
+		padding-bottom: 13px;
+	}
+
+	.navbar li.nav-dropdown ul li a{
+		font-family: Arial;
+		font-size: 15px;
+		color: #333!important;
+		text-transform: inherit;
+	}
+	.navbar li.nav-dropdown ul li a:hover{
+		background-color: #f1f1f1!important;
+	}
+}		
+
+@media (max-width: @screen-xs-max){
+	.registration-container { padding-bottom:15px; }    
+}

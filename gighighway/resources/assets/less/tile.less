@@ -1,0 +1,173 @@
+//
+// Tile
+// --------------------------------------------------
+
+.tile-link{
+	display: block;
+	min-height: 250px;
+	height: auto;
+	width: 100%;
+	max-width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}
+.first-profile{
+	min-height: 169px;
+}  
+
+.tile-caption{
+	background: #fbfbfb;
+	border-top: 1px solid #ddd;
+}
+.tile-caption h4{
+	font-size: 16px;
+    margin-bottom:3px;
+}
+
+.tile-caption-information {
+    height:223px;
+    overflow:hidden;
+    margin-bottom:6px;
+}
+
+span.title{
+	display: block;
+	font-size: 20px;
+	border-bottom: 3px solid #eee;
+	padding-bottom: 8px;
+	margin-bottom: 20px;
+	font-size: 20px;
+	color: #272727;
+}
+
+//== Img reset for responsiveness
+
+.reset-img{
+	position: inherit!important;
+	width: auto!important;
+	height: inherit!important;
+	max-width: inherit!important;
+	max-height: inherit!important;
+	left: inherit!important;
+	top: inherit!important;
+}
+
+//== Thumbnail
+
+.thumbnail {
+    max-width:300px;
+}
+
+.thumbnail:hover{
+	box-shadow: 0 0 10px 1px #f1f1f1;
+}
+
+
+//== Feature Ribbon
+
+        #ribbon-container {
+            position: absolute;
+            top: 15px;
+            right: 0;
+            overflow: visible;
+            /* so we can see the pseudo-elements we're going to add to the anchor */
+            font-size: 18px;
+            /* font-size and line-height must be equal so we can account for the height of the banner */
+            line-height: 0;
+        }
+
+            #ribbon-container:before {
+                content: "";
+                height: 0;
+                width: 0;
+                display: block;
+                position: absolute;
+                top: 4px;
+                left: 11px;
+                border-top: 19px solid rgba(0, 0, 0, .3);
+                /* These 4 border properties create the first part of our drop-shadow */
+                border-bottom: 19px solid rgba(0, 0, 0, .3);
+                border-right: 19px solid rgba(0, 0, 0, .3);
+                border-left: 19px solid transparent;
+            }
+
+            #ribbon-container:after {
+                /* This adds the second part of our dropshadow */
+                content: "";
+                height: 4px;
+                background: rgba(0, 0, 0, .3);
+                display: block;
+                position: absolute;
+                bottom: -3px;
+                left: 49px;
+                right: 3px;
+                top: 38px;
+            }
+
+            #ribbon-container a {
+                display: block;
+                padding: 18px;
+                position: relative;
+                /* allows us to position our pseudo-elements properly */
+                background: @brand-success;
+                overflow: visible;
+                height: 38px;
+                margin-left: 29px;
+                color: #fff;
+                text-decoration: none;
+            }
+
+                #ribbon-container a:after {
+                    /* this creates the "folded" part of our ribbon */
+                    content: "";
+                    height: 0;
+                    width: 0;
+                    display: block;
+                    position: absolute;
+                    bottom: -15px;
+                    right: 0;
+                    border-top: 15px solid darken(@brand-success, 10%);
+                    border-right: 15px solid transparent;
+                }
+
+                #ribbon-container a:before {
+                    /* this creates the "forked" part of our ribbon */
+                    content: "";
+                    height: 0;
+                    width: 0;
+                    display: block;
+                    position: absolute;
+                    top: 0;
+                    left: -19px;
+                    border-top: 19px solid @brand-success;
+                    border-bottom: 19px solid @brand-success;
+                    border-right: 19px solid transparent;
+                    border-left: 19px solid transparent;
+                }
+
+                
+    //===== Rating
+    .rating {
+        font-size:1.5em;
+        &:hover{
+            cursor:auto;
+        }
+    }
+
+    .rating > span {
+        display: inline-block;
+        position: relative;
+        width: 1.1em;
+    }
+
+    .averageRating:before {
+        content: "\2605";
+        position: absolute;
+        color:gold;
+    }
+
+    #hpProfileTile_Description {
+        height: 73px;
+        overflow: hidden;
+        line-height:19px;
+    }

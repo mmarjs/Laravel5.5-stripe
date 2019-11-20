@@ -1,0 +1,140 @@
+﻿/*#region Non-Semantic Helper Classes */
+
+/* for image replacement */
+.ir {
+    display: block;
+    text-indent: -999em;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    text-align: left;
+    direction: ltr;
+}
+
+/* Hide for both screenreaders and browsers */
+.hidden {
+    display: none;
+    visibility: hidden;
+}
+
+/* Hide only visually, but have it available for screenreaders */
+.visuallyhidden {
+    position: absolute !important;
+    clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+    clip: rect(1px, 1px, 1px, 1px);
+}
+
+/* Hide visually and from screenreaders, but maintain layout */
+.invisible {
+    visibility: hidden;
+}
+
+/* Clearfix */
+.clearfix:before,
+.clearfix:after
+.clearFix:before,
+.clearFix:after {
+    content: "\0020";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+.clearfix:after,
+.clearFix:after {
+    clear: both;
+}
+
+.clearfix,
+.clearFix {
+    zoom: 1;
+}
+
+
+.cleardiv,
+.clearDiv {
+    clear: both;
+}
+
+/*#endregion Non-Semantic Helper Classes */
+
+
+/*#region Non-Semantic Helper Classes - Custom */
+
+.hide {
+    display: none !important;
+}
+
+.show {
+    display: block;
+}
+
+.pull-right {
+    float: right;
+}
+
+.pull-left {
+    float: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.affix {
+    position: fixed;
+}
+
+.visible-phone {
+    display: none !important;
+}
+
+.visible-tablet {
+    display: none !important;
+}
+
+.visible-desktop {
+    display: inherit !important;
+}
+
+.hidden-desktop {
+    display: none !important;
+}
+
+.opacityHide {
+    filter: alpha(opacity=0);
+    -moz-opacity: 0.00;
+    opacity: 0.00;
+}
+
+img.imageLeft,
+img.imageRight {
+    max-width: 100%;
+}
+
+img.imageLeft {
+    float: left;
+    margin: 0 12px 12px 0;
+}
+
+img.imageRight {
+    float: right;
+    margin: 0 0 12px 12px;
+}
+
+img.noBorder {
+    border-width: 0;
+}
+
+.debugBorder {
+    border: @borderWidth dashed red !important;
+}
+
+/*#endregion Non-Semantic Helper Classes - Custom */
